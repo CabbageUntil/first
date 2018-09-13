@@ -1,0 +1,214 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name='apple-mobile-web-app-capable' content='yes'/>
+    <meta name="format-detection" content="telephone=no"/>
+    <meta http-equiv='Content-Type' content='textml;charset=utf-8'/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="/rdp/aardp.ico">
+    <title>首页 - AARDP</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <!--手机响应式样式-->
+    <link rel="stylesheet" href="css/phone_style.css">
+
+    <style>.right-active { border-right: 2px solid red; }</style>
+</head>
+<body class="body-bg">
+<!--[if lt IE 8]>
+
+
+
+<div class="alert alert-danger">您正在使用 <strong>过时的</strong> 浏览器. 是时候 <a target="_blank" href="http://browsehappy.com/">更换一个更好的浏览器</a> 来提升用户体验.</div>
+<![endif]-->
+<div class="wrap" id="wrap">
+    <div class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><img src="img/logo.png" alt=""></a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active" ><a href="index.html">首页</a></li>
+                    <li ><a href="choice.html">远程</a></li>
+                    <li ><a href="download.html">下载</a></li>
+                    <li ><a href="function.html">功能</a></li>
+                    <li class="dropdown">
+                        <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">
+                            帮助
+                            <b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li class=""><a href="computer.html">PC端教程</a></li>
+                            <li class=""><a href="phone.html">APP端教程</a></li>
+                            <li class=""><a href="video.html">视频教程</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="nav-menu" id="nav-menu" >
+                <ul  style="list-style: none">
+                    <li><a href="index.html"><i></i>首页</a></li>
+                    <li><a href="choice.html"><i></i>远程</a></li>
+                    <li><a href="download.html"><i></i>下载</a></li>
+                    <li><a href="function.html"><i></i>功能</a></li>
+                    <li><a href="#"><i></i>帮助</a>
+                        <div class="lang-switch">
+                            <a href="computer.html"><span class=""></span>PC端教程</a>
+                            <a href="phone.html"><span class=""></span>APP端教程</a>
+                            <a href="video.html"><span class=""></span>视频教程</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="banner" id="banner"></div>
+        <!--<h3>跨越距离、一键远控</h3>
+        <p>安全 &nbsp;&nbsp;&nbsp;&nbsp;稳定 &nbsp;&nbsp;&nbsp;&nbsp;快速</p>-->
+
+
+    <div class="product">
+        <div class="container " >
+            <h3>aardp独享专线远程</h3>
+            <div class="row">
+                <div class="col-xs-6 col-md-3" id="product-item-1">
+                    <img src="img/index-icon-1.png" alt="">
+                    <h4>极速连接</h4>
+                    <p>无需改变现有的ip设定，一键<br>享用急速连接</p>
+                </div>
+                <div class="col-xs-6 col-md-3 product-item-2" id="product-item-2">
+                    <img src="img/index-icon-2.png" alt="">
+                    <h4>稳定可靠</h4>
+                    <p>一机即可远程登录，专线远程给<br>您提供多选择方案</p>
+                </div>
+                <div class="col-xs-6 col-md-3 product-item-3" id="product-item-3">
+                    <img src="img/index-icon-3.png" alt="">
+                    <h4>性价比高</h4>
+                    <p>借用rdp嵌入式网络模式，降低租<br>用专线成本</p>
+                </div>
+                <div class="col-xs-6 col-md-3" id="product-item-4">
+                    <img src="img/index-icon-4.png" alt="">
+                    <h4>性能优越</h4>
+                    <p>aardp有硬件路由支持，最高保<br>持99%在线连接</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="product1">
+        <div class="container "style="background-color: #f6f6f6;" >
+            <h3>产品概述</h3>
+            <div class="row">
+                <div class="col-lg-12 col-sm-12">
+                    <h4 style="line-height: 33px;">基于RSA/AES非对称加密技术，保证用户资料、回话等安全；配置多节点服务器、BGP跨线云服务器，是远程操作不<br>
+                    卡顿；为用户提供专属顾问支持与协作用户；结合开机棒、控控等智能硬件，是aardp专线远程实现安全无忧、流畅无<br>
+                        阻、专属技术支持、完整软硬结合。</h4>
+                    <img  src="img/projuct.png">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="product1">
+        <div class="container " >
+            <h3>专线远程</h3>
+            <div class="row">
+                <div class="col-lg-12 col-sm-12">
+                    <h4 style="line-height: 33px;">专属的技术，系统的管理、安全、流畅的服务为您提供更稳定更可靠的专线服务。</h4>
+                    <img  src="img/map.png">
+                </div>
+        </div>
+    </div>
+</div>
+<div class="footer">
+    <div class="container">
+        <p class="text-muted"> © 2013 ~ 2018 AArdp 版权所有</p>
+    </div>
+
+</div>
+</div>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+<script src="js/swiper.min.js"></script>
+<script type="text/javascript">
+    function scrollnumber(element, cssname, offset) {
+        var a, b, c, d;
+        d = $(element).offset().top;
+        a = eval(d + offset);
+        b = $(window).scrollTop();
+        c = $(window).height();
+        if (b + c > a) {
+            $((element)).addClass((cssname));
+        }
+    }
+    function scrollfun() {
+        scrollnumber("#banner", 'banner-animate', 100);
+        scrollnumber("#product-item-1", 'product-item-1-animate', 100);
+        scrollnumber("#product-item-2", 'product-item-1-animate', 100);
+        scrollnumber("#product-item-3", 'product-item-2-animate', 100);
+        scrollnumber("#product-item-4", 'product-item-2-animate', 100);
+        scrollnumber("#index-tel-content", 'index-animate', 100);
+        scrollnumber("#index-aardp", 'index-aardp-animate', 100);
+        scrollnumber("#index-content", 'index-content-animate', 100);
+    }
+    $(document).ready(function (e) {
+        scrollfun();
+        $(window).scroll(function () {
+            scrollfun();
+        });
+    });
+    var swiper = new Swiper('.swiper-container', {
+        slidesPerView: 5,
+        spaceBetween: 30,
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true
+        }
+    });
+    $(".swiper-wrapper").on("click", "li", function (e) {
+        var tt = $(this).index();
+        switch (tt) {
+            case 0:
+                $(this).addClass('wrap-action').siblings().removeClass('wrap-action');
+                $(".index-tel-content-item-1").slideDown(1000).siblings().slideUp(1000);
+                break;
+            case 1:
+                $(this).addClass('wrap-action').siblings().removeClass('wrap-action');
+                $(".index-tel-content-item-2").slideDown(1000).siblings().slideUp(1000);
+                break;
+            case 2:
+                $(this).addClass('wrap-action').siblings().removeClass('wrap-action');
+                $(".index-tel-content-item-3").slideDown(1000).siblings().slideUp(1000);
+                break;
+            case 3:
+                $(this).addClass('wrap-action').siblings().removeClass('wrap-action');
+                $(".index-tel-content-item-4").slideDown(1000).siblings().slideUp(1000);
+                break;
+            case 4:
+                $(this).addClass('wrap-action').siblings().removeClass('wrap-action');
+                $(".index-tel-content-item-5").slideDown(1000).siblings().slideUp(1000);
+                break;
+        }
+    });
+    function returnTOP() {
+        scrollTo(0, 0);
+    }
+</script>
+
+</body>
+</html>

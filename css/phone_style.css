@@ -1,0 +1,278 @@
+/***********************************首页样式**********************************/
+@media only screen  and (max-width: 1200px) {
+    /*************************choice.html********************/
+    .remoting{
+        background: url("../img/remoting-bg.png") no-repeat center;
+    }
+    /*************************remote.html*****************************/
+    .remote-main-styles{
+        position: absolute;
+        left:31px;
+        top: 9%;
+        z-index: 12;
+    }
+    /*******************************download.html***************************/
+    .down-mains {
+        width: 90%;
+        height: auto;
+        position: absolute;
+        left: 7%;
+        top:26%;
+    }
+
+}
+
+@media only screen and (max-width: 990px) {
+    /*远程连接中频ipad背景*/
+    .remoting {
+        background: url("../img/remoting-bg.png") no-repeat center;
+    }
+    /*************************remote.html*****************************/
+    .remote-main-styles{
+        position: absolute;
+        position: absolute;
+        left:0;
+        top: 9%;
+    }
+    /*form_logo*/
+    .row_img {
+        width: 58px;
+        height:58px;
+        position: relative;
+        z-index: 1;
+        top: 31px;
+        left: 42%;
+    }
+    /*******************************download.html***************************/
+    .down-mains {
+        width: 90%;
+        height: auto;
+        position: absolute;
+        left: 7%;
+        top:34%;
+    }
+    .down-mains img{
+        width: 59px;
+        height: 59px;
+    }
+    .down-mains p{
+        font-size: 15px;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 767px) {
+    /*远程连接中频ipad背景*/
+    .remoting {
+        background: url("../img/remoting-bg.png") no-repeat center;
+     }
+    /*************************remote.html*****************************/
+    .remote-main-styles{
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+    /*form_logo*/
+    .row_img {
+        width: 58px;
+        height:58px;
+        position: relative;
+        z-index: 1;
+        top: 31px;
+        left: 42%;
+    }
+
+}
+
+@media only screen and (max-width: 420px) {
+    /*************************index.html********************/
+    /*产品概述图片隐藏*/
+    .product1 .container .row{
+        margin: 47px 0 6px;
+        transition: 1s;
+        -webkit-transition: 1s;
+        -moz-transition: 1s;
+    }
+    .product1 .container {
+        width: 100%;
+        /* background-color: #ffff00; */
+        padding: 22px 0;
+    }
+    .product1 .container .row img{
+        display: none;
+        margin: 0 auto;
+    }
+    /*隐藏背景图片*/
+    .banner{
+        display: none;
+    }
+    /*aardp远程独享样式*/
+    .product .container {
+        width: 100%;
+        padding: 137px 0 32px 0;
+    }
+    .product1 .container h3{
+         color: #2196F3;
+         font-size: 24px;
+         line-height: 6px;
+     }
+    .product .container h3{
+        color: #2196F3;
+        font-size: 24px;
+        line-height: 6px;
+    }
+    .product1 .container {
+          width: 100%;
+          /* background-color: #ffff00; */
+          padding: 48px 0;
+      }
+    /*************************choice.html********************/
+    /*改变图片的大小*/
+    .remoting-main a img{
+        width:55px;
+        height:55px;
+    }
+    /**************************remote.html****************************/
+    .remote-main-styles {
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+    /*form_logo*/
+    .row_img {
+        width: 58px;
+        height:58px;
+        position: relative;
+        z-index: 1;
+        top: 31px;
+        left: 42%;
+    }
+    /*form header style*/
+    .panel_header{
+        padding:29px 0 1px 0;
+        background: #f1f1f3;
+        border-bottom: 1px solid #bfbfbf;
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
+        text-align: center;
+    }
+    /**************************history.html****************************/
+    .system .row img{
+        width:45px;
+        height:45px;
+    }
+    .system .row p{
+        font-size: 11px;
+         padding: 0px;
+        margin-top: 3px;
+    }
+    .frame{
+        width: 90%;
+        margin: 0 auto;
+        padding: 63px 0 0 0;
+        text-align: center;
+    }
+    .frame a{
+        display: inline-block;
+        width: 113px;
+        border-radius: 8px;
+        border-radius: 3px;
+        color: #fff;
+        line-height: 31px;
+        margin: 0 5px;
+        background-color: #FB8C00;
+    }
+    /*******************************download.html***************************/
+    .down-mains {
+        width: 90%;
+        height: auto;
+        position: absolute;
+        left: 7%;
+        top:34%;
+    }
+    .down-mains img{
+        width: 59px;
+        height: 59px;
+    }
+    .down-mains p{
+        font-size: 15px;
+    }
+    /******************************function.html*****************************************/
+    .function{
+        display: none;
+    }
+
+}
+
+
+
+
+@media only screen and (max-width: 330px) {
+    /*************************index.html********************/
+    /*产品概述图片隐藏*/
+    .product1 .container .row{
+        margin: 47px 0 6px;
+        transition: 1s;
+        -webkit-transition: 1s;
+        -moz-transition: 1s;
+    }
+    .product1 .container {
+        width: 100%;
+        /* background-color: #ffff00; */
+        padding: 22px 0;
+    }
+    .product1 .container .row img{
+        display: none;
+        margin: 0 auto;
+    }
+    /*隐藏背景图片*/
+    .banner{
+        display: none;
+    }
+    /*aardp远程独享样式*/
+    .product .container {
+        width: 100%;
+        padding: 137px 0 32px 0;
+    }
+    /*独享标题样式*/
+    .product .container h3{
+        color: #2196F3;
+        font-size: 24px;
+        line-height: 6px;
+    }
+    /*产品概述标题样式*/
+    .product1 .container h3{
+         color: #2196F3;
+         font-size: 24px;
+         line-height: 6px;
+     }
+    /*************************choice.html********************/
+    /*改变图片的大小*/
+    .remoting-main  img{
+        width:55px;
+        height:55px;
+    }
+    /******************************function.html*****************************************/
+    .function{
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

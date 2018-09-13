@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name='apple-mobile-web-app-capable' content='yes'/>
+    <meta name="format-detection" content="telephone=no"/>
+    <meta http-equiv='Content-Type' content='textml;charset=utf-8'/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="/rdp/aardp.ico">
+    <title>历史记录 - AARDP - AARDP</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/video-js.min.css">
+    <style>
+     .right-active {
+         border-right: 2px solid red;
+     }
+    </style>
+</head>
+<body class="body-bg">
+<!--[if lt IE 8]>
+
+
+
+<div class="alert alert-danger">您正在使用 <strong>过时的</strong> 浏览器. 是时候 <a target="_blank" href="http://browsehappy.com/">更换一个更好的浏览器</a> 来提升用户体验.</div>
+<![endif]-->
+<div class="wrap" id="wrap">
+    <div class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><img src="img/logo.png" alt=""></a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li ><a href="index.html">首页</a></li>
+                    <li ><a href="choice.html">远程</a></li>
+                    <li ><a href="download.html">下载</a></li>
+                    <li ><a href="function.html">功能</a></li>
+                    <li class="dropdown active">
+                        <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">
+                            帮助<b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li class=""><a href="computer.html">PC教程</a></li>
+                            <li class=""><a href="phone.html">APP教程</a></li>
+                            <li class=""><a href="video.html">视频教程</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="nav-menu" id="nav-menu">
+                <ul>
+                    <li><a href="index.html"><i></i>首页</a></li>
+                    <li><a href="choice.html"><i></i>远程</a></li>
+                    <li><a href="download.html"><i></i>下载</a></li>
+                    <li><a href="function.html"><i></i>功能</a></li>
+                    <li><a href="javascript:void(0)">帮助</a>
+                        <div class="lang-switch">
+                            <a href="computer.html"><span class=""></span>PC端教程</a>
+                            <a href="phone.html"><span class=""></span>APP教程</a>
+                            <a href="video.html"><span class=""></span>视频教程</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div> <!--head end-->
+    <!-- container -->
+
+    <div class="void">
+        <div class="container">
+
+            <!--app教程-->
+            <div class="row">
+                <div class="col-lg-12 col-md-12">
+                    <img src="img/viod/OneRemote.png">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <video id="my-video" class="video-js" controls preload="auto"  width="485" height="275"
+                           poster="img/viod/aar_app.png" data-setup="{}">
+                        <source src="video/app-cloud-test.mp4" type="video/mp4">
+                        <source src="video/app-cloud-test.webm" type="video/webm">
+                        <source src="video/app-cloud-test.ogg" type="video/ogg">
+                    </video>
+                    <div class="text-center" style="
+                            font-family: 微软雅黑;
+                            font-size: 20px;
+                            padding-top: 10px;"><p>AARDP使用教程</p>
+                    </div>
+                </div>
+            </div> <!--app教程  end-->
+
+            <!-- OneRemote -->
+            <div class="row">
+                <div class="col-lg-12 col-md-12">
+                    <img src="img/viod/OneRemote.png">
+                </div>
+            </div>
+            <div class="row">
+                 <!--下载OneRemote教程 -->
+                <div class="col-md-5">
+                    <video id="my-video1" class="video-js"
+                           controls preload="auto"  width="485" height="275"
+                           poster="img/viod/remote_help.png" data-setup="{}">
+                        <source src="video/remote-down.mp4" type="video/mp4">
+                        <source src="video/remote-down.webm" type="video/webm">
+                        <source src="video/remote-down.ogg" type="video/ogg">
+                    </video>
+                    <div class="text-center" style="
+                            font-family: 微软雅黑;
+                            font-size: 20px;
+                            padding-top: 10px;"><p>下载OneRemote教程 </p>
+                    </div>
+                </div><!--下载OneRemote教程 end-->
+
+                <!--登录OneRemote教程 -->
+                <div class="col-md-offset-2 col-md-5">
+                    <video id="my-video2" class="video-js"
+                           controls preload="auto"  width="485" height="275"
+                           poster="img/viod/remote_help.png" data-setup="{}">
+                        <source src="video/remote-login.mp4" type="video/mp4">
+                        <source src="video/remote-login.webm" type="video/webm">
+                        <source src="video/remote-login.ogg" type="video/ogg">
+                    </video>
+                    <div class="text-center" style="
+                            font-family: 微软雅黑;
+                            font-size: 20px;
+                            padding-top: 10px;"><p>登录OneRemote教程</p>
+                    </div>
+                </div>  <!--登录OneRemote教程  end-->
+            </div>
+
+            <div class="row">
+                <!--OneRemote使用教程 -->
+                <div class="col-md-5">
+                    <video id="my-video3" class="video-js"
+                           controls preload="auto" width="485" height="275"
+                           poster="img/viod/remote_help.png" data-setup="{}">
+                        <source src="video/remote-use.mp4" type="video/mp4">
+                        <source src="video/remote-use.webm" type="video/webm">
+                        <source src="video/remote-use.ogg" type="video/ogg">
+                    </video>
+                    <div class="text-center" style="
+                            font-family: 微软雅黑;
+                            font-size: 20px;
+                            padding-top: 10px;"><p>OneRemote使用教程 </p>
+                    </div>
+                </div><!--OneRemote 使用教程 end -->
+
+                <!--Windows添加员工教程-->
+                <div class="col-md-offset-2 col-md-5">
+                    <video id="my-video4" class="video-js"
+                           controls preload="auto" width="485" height="275"
+                           poster="img/viod/user_add.png" data-setup="{}">
+                        <source src="video/addUser.mp4" type="video/mp4">
+                        <source src="video/addUser.webm" type="video/webm">
+                        <source src="video/addUser.ogg" type="video/ogg">
+                    </video>
+                    <div class="text-center" style="
+                            font-family: 微软雅黑;
+                            font-size: 20px;
+                            padding-top: 10px;"><p>Windows添加员工教程</p>
+                    </div>
+                </div> <!--Windows添加员工教程   end-->
+
+                <!--Windows修改密码-->
+                <div class="col-md-5">
+                    <video id="my-video4" class="video-js"
+                           controls preload="auto" width="485" height="275"
+                           poster="img/viod/update_pwd.png" data-setup="{}">
+                        <source src="video/changePwd.mp4" type="video/mp4">
+                        <source src="video/changePwd.webm" type="video/webm">
+                        <source src="video/changePwd.ogg" type="video/ogg">
+                    </video>
+                    <div class="text-center" style="
+                            font-family: 微软雅黑;
+                            font-size: 20px;
+                            padding-top: 10px;"><p>Windows修改密码教程</p>
+                    </div>
+                </div> <!--Windows修改密码   end-->
+            </div><!-- OneRemote end -->
+
+
+           <!-- OneRemote(Web)-->
+            <div class="row">
+                <div class="col-lg-12 col-md-12">
+                    <img src="img/viod/AANETS.png">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <video id="my-video8" class="video-js"
+                           controls preload="auto" width="485" height="275"
+                           poster="img/viod/none.png" data-setup="{}">
+                        <!--<source src="video/aardp-web.mp4" type="video/mp4">
+                        <source src="video/aardp-web.webm" type="video/webm">
+                        <source src="video/aardp-web.ogg" type="video/ogg">-->
+                    </video>
+                    <div class="text-center" style="
+                            font-family: 微软雅黑;
+                            font-size: 20px;
+                            padding-top: 10px;"><p>AARDP使用教程</p></div>
+                </div>
+            </div><!-- OneRemote(Web)  end-->
+
+            <!-- AANETS教程-->
+            <div class="row">
+                <div class="col-lg-12 col-md-12">
+                    <img src="img/viod/AANETS.png">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <video id="my-video8" class="video-js"
+                           controls preload="auto" width="485" height="275"
+                           poster="img/viod/aanet_video.png" data-setup="{}">
+                        <source src="video/AANETSRemote.mp4" type="video/mp4">
+                        <source src="video/AANETSRemote.webm" type="video/webm">
+                        <source src="video/AANETSRemote.ogg" type="video/ogg">
+                    </video>
+                    <div class="text-center" style="
+                            font-family: 微软雅黑;
+                            font-size: 20px;
+                            padding-top: 10px;"><p>AANETS教程</p></div>
+                </div>
+            </div><!-- AANETS教程  end-->
+
+            <!--AARDP-->
+            <div class="row">
+                <div class="col-lg-12 col-md-12">
+                    <img src="img/viod/AARDP.png">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <video id="my-video7" class="video-js"
+                           controls preload="auto" width="485" height="275"
+                           poster="img/viod/user_introd.png" data-setup="{}">
+                        <source src="video/aardp-web.mp4" type="video/mp4">
+                        <source src="video/aardp-web.webm" type="video/webm">
+                        <source src="video/aardp-web.ogg" type="video/ogg">
+                    </video>
+                    <div class="text-center" style="
+                            font-family: 微软雅黑;
+                            font-size: 20px;
+                            padding-top: 10px;"><p>AARDP使用教程</p></div>
+                </div>
+                <div class="col-md-6">
+                    <video id="my-video7" class="video-js"
+                           controls preload="auto" width="485" height="275"
+                           poster="img/viod/add_server.png" data-setup="{}">
+                        <source src="video/add-server-user.mp4" type="video/mp4">
+                        <source src="video/add-server-user.webm" type="video/webm">
+                        <source src="video/add-server-user.ogg" type="video/ogg">
+                    </video>
+                    <div class="text-center" style="
+                            font-family: 微软雅黑;
+                            font-size: 20px;
+                            padding-top: 10px;"><p>添加服务器</p></div>
+                </div>
+            </div> <!--AARDP end-->
+
+
+            <!--Ip Remote  -->
+            <div class="row">
+                <div class="col-lg-12 col-md-12">
+                    <img src="img/viod/IP Remote.png">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <video id="my-video8" class="video-js"
+                           controls preload="auto" width="485" height="275"
+                           poster="img/viod/ip_remote.png" data-setup="{}">
+                        <source src="video/IPRemote.mp4" type="video/mp4">
+                        <source src="video/IPRemote.webm" type="video/webm">
+                        <source src="video/IPRemote.ogg" type="video/ogg">
+                    </video>
+                    <div class="text-center" style="
+                            font-family: 微软雅黑;
+                            font-size: 20px;
+                            padding-top: 10px;"><p>AARDP使用教程</p></div>
+                </div>
+            </div> <!--Ip Remote end -->
+        </div>
+    </div>
+
+</div>
+
+<div class="footer">
+    <div class="container">
+        <p class="text-muted"> © 2013 ~ 2018 AArdp 版权所有</p>
+    </div>
+
+</div>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+<script src="js/video.min.js.js"></script>
+<script src="js/videojs-ie8.min.js"></script>
+<script src="js/video.min.js"></script>
+<script src="http://vjs.zencdn.net/5.19/lang/zh-CN.js"></script>
+
+<script type="text/javascript">
+    var myPlayer = videojs('my-video');
+    videojs("my-video").ready(function(){
+        var myPlayer = this;
+        myPlayer.play();
+    });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,22 @@
+.panel_header {
+    padding:49px 0 15px 0;
+    background: #f1f1f3;
+    border-bottom: 1px solid #bfbfbf;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    text-align: center;
+}
+
+.panel_header p{
+    font-size: 18px;
+    font-weight: bold;
+    color: #080808;
+    font-family: Î¢ÈíÑÅºÚ;
+}
+
+.row_img{
+    position: relative;
+    z-index: 1;
+    top: 31px;
+    left: 43%;
+}

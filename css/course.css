@@ -1,0 +1,187 @@
+/*course 教程*/
+.course {
+    width: 100%;
+    /* background-color: #45bab1;*/
+     background-color: #f8f8f8;
+    /* padding: 20px;*/
+    padding: 130px 0 0;
+    text-align: center;
+}
+
+.course-ul {
+   /* width: 70%;*/
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+.course-ul li {
+    line-height: 45px;
+    width: 31%;
+    display: inline-block;
+}
+
+.course-ul li a {
+    font-size: 18px;
+    color: #666;
+}
+
+.course-ul li.active-tab a {
+    border-bottom: 2px solid #29b86c;
+    padding-bottom: 10px;
+}
+
+/*course content*/
+.course-content {
+   /* width: 70%;*/
+    max-width: 1240px;
+    margin: 50px auto 0;
+    text-align: left;
+}
+.course-content-pc {
+    width: 100%;
+}
+.course-top {
+    width: 100%;
+    border-bottom: 2px solid #d8d8d8;
+}
+.course-top h4 {
+    font-size: 28px;
+    color: #5d5d5d;
+    width: 200px;
+    text-align: center;
+}
+.course-main {
+    position: relative;
+}
+.course-main-left ul {
+    margin-top: 50px;
+}
+.course-main-left li {
+    line-height: 30px;
+    margin: 20px 0;
+}
+.course-main-left li a {
+    color: #5d5d5d;
+    font-size: 18px;
+}
+.course-main-left li.course-active a {
+    color: #29b86c;
+}
+.course-main-left li span {
+    display: inline-block;
+    width: 21px;
+    height: 21px;
+    line-height: 21px;
+    text-align: center;
+    border-radius: 100%;
+    color: #fff;
+    vertical-align: middle;
+    background: #acacac;
+    margin-right: 10px;
+}
+.course-main-left li.course-active span {
+    background: #29b86c;
+}
+
+.course-main-right {
+    border-left: 1px solid #d8d8d8;
+}
+
+
+.pc-main {
+    margin-left: 40px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    background: #fff;
+    border-color: #d8d8d8;
+    box-shadow: 1px 1px 1px #888888;
+    -moz-box-shadow: 1px 1px 1px #888888; /* 老的 Firefox */
+    border-radius: 10px;
+    text-align: center;
+}
+.pc-main p {
+    font-size: 16px;
+    color: #333;
+    text-align: left;
+    line-height: 109px;
+}
+.pc-content {
+    margin: 0 20px;
+    /*padding: 20px 0;*/
+}
+.pc-content .pc-img {
+    max-width: 100%;
+    margin: 0 0 60px;
+   /* box-shadow: 2px 2px 2px #888888;
+    -moz-box-shadow: 2px 2px 2px #888888;*/ /* 老的 Firefox */
+}
+
+.move-top {
+    position: absolute;
+    width:45px;
+    height: 45px;
+    border-radius: 5px;
+    background: #b6b6b6;
+    bottom: 50px;
+    left: -22px;
+}
+.move-top a {
+    display: block;
+    width:24px;
+    height: 21px;
+    background: url("../img/move-top.png") no-repeat center;
+    margin-top: 10px;
+    margin-left: -5px;
+}
+
+/*@media screen and (max-width: 1300px) {
+    .course-content {
+        width: 90%;
+    }
+}*/
+
+@media screen and (max-width: 767px) {
+    .course {
+        /* padding: 5px;*/
+        padding: 80px 0 0;
+
+    }
+    .pc-main p {
+        line-height: 29px;
+    }
+    .course-content {
+        margin-top: 20px;
+    }
+    .course-top h4 {
+        text-align: left;
+        margin-left: 20px;
+    }
+    .course-main-left ul{
+        margin-top: 20px;
+        background: #fff;
+        border-color: #d8d8d8;
+       /* box-shadow: 1px 1px 1px #888888;
+        -moz-box-shadow: 1px 1px 1px #888888; !* 老的 Firefox *!
+        border-radius: 5px;*/
+       /* padding-left: 10px;*/
+        padding: 5px 10px;
+    }
+    .course-main-right {
+        border: 0;
+    }
+    .pc-main {
+        margin-left: 0;
+        padding-top: 20px;
+    }
+    .move-top {
+        position: fixed;
+        top: 80px;
+        left: 0;
+        right: 0;
+        float: right;
+    }
+
+    .pc-content .pc-img {
+        margin: 20px 0;
+    }
+}

@@ -1,0 +1,138 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name='apple-mobile-web-app-capable' content='yes'/>
+    <meta name="format-detection" content="telephone=no"/>
+    <meta http-equiv='Content-Type' content='textml;charset=utf-8'/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="/rdp/aardp.ico">
+    <title>RDP端口查询 - AARDP - AARDP</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/query.css">
+    <!--手机端自适应样式-->
+    <link rel="stylesheet" href="css/phone_style.css">
+    <style>
+        .remote-main .form-horizontal{width: 100%;}
+        .form-horizontal .control-label{text-align:left;}
+    </style>
+
+    <style>.right-active { border-right: 2px solid red; }</style>
+</head>
+<body class="body-bg">
+<!--[if lt IE 8]>
+
+
+
+<div class="alert alert-danger">您正在使用 <strong>过时的</strong> 浏览器. 是时候 <a target="_blank" href="http://browsehappy.com/">更换一个更好的浏览器</a> 来提升用户体验.</div>
+<![endif]-->
+<div class="wrap" id="wrap">
+    <div class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><img src="img/logo.png" alt=""></a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li  ><a href="index.html">首页</a></li>
+                    <li class="active"><a href="choice.html">远程</a></li>
+                    <li ><a href="download.html">下载</a></li>
+                    <li ><a href="function.html">功能</a></li>
+                    <li class="dropdown">
+                        <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">
+                            帮助<b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li class=""><a href="computer.html">PC端教程</a></li>
+                            <li class=""><a href="phone.html">APP端教程</a></li>
+                            <li class=""><a href="video.html">视频教程</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="nav-menu" id="nav-menu">
+                <ul>
+                    <li><a href="index.html"><i></i>首页</a></li>
+                    <li><a href="choice.html"><i></i>远程</a></li>
+                    <li><a href="download.html"><i></i>下载</a></li>
+                    <li><a href="function.html"><i></i>功能</a></li>
+                    <li><a href="javascript:void(0)">帮助</a>
+                        <div class="lang-switch">
+                            <a href="computer.html"><span class=""></span>PC端教程</a>
+                            <a href="phone.html"><span class=""></span>APP端教程</a>
+                            <a href="video.html"><span class=""></span>视频教程</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="remote">
+        <div class="container remote-main-styles">
+            <div class="row ">
+                <div class="col-lg-5 col-sm-12 col-md-offset-3 col-md-6 col-xs-12">
+                    <img class="row_img" src="img/form_icon.png">
+                    <div class="panel panel-default">
+                        <div class="panel_header">
+                            <p>RDP端口查询</p>
+                        </div>
+                        <div class="panel-body" style="padding: 16% 11%;">
+                            <form class="form-horizontal" role="form">
+                                <div class="form-group">
+                                    <div class="col-sm-offset-1 col-md-offset-1 col-sm-10 col-md-10 col-xs-12  ">
+                                        <input type="text" class="form-control" placeholder="请输入服务器IP地址">
+                                    </div>
+                                </div>
+                                <div class="form-group" style="padding-top: 50px;">
+                                    <div class="col-md-offset-1 col-md-4 col-sm-offset-1 col-sm-4  col-xs-6 ">
+                                        <div class="checkbox" style="text-align: left;">
+                                            <label>
+                                                <a href="#"><img style="width: 20px;height:20px;" src="img/remote_info/update2.png">更新</a>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-offset-1 col-md-4 col-sm-offset-1 col-sm-4  col-xs-6  ">
+                                        <div class="checkbox" style="text-align: right;">
+                                            <label>
+                                                <a href="choice.html">
+                                                    <img style="width: 20px;height:20px; margin: 5px 5px ;"
+                                                         src="img/remote_info/back.png">返回</a>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <p class="text-muted"> © 2013 ~ 2018 AArdp 版权所有</p>
+        </div>
+    </div>
+</div>
+</body>
+<div class="hidden">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://cdn.bootcss.com/clipboard.js/1.7.1/clipboard.min.js"></script>
+</div>
+</html>

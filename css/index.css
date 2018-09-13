@@ -1,0 +1,651 @@
+/*index 页面样式*/
+.head {
+    width: 1200px;
+    margin: 100px auto 10px;
+    text-align: center;
+    position: relative;
+    height: 150px;
+}
+.logo-a {
+    position: absolute;
+    width: 128px;
+    height: 128px;
+    left: 50%;
+    margin-left: -62px;
+}
+.main-content {
+   /* width: 600px;*/
+    width: 1200px;
+    margin: 50px auto 0;
+    text-align: center;;
+}
+
+.teacher-item {
+    display: inline-block;
+    padding: 30px 2%;
+    font-size: 18px;
+    margin: 50px 1%;
+    border-radius: 10px;
+    box-shadow: 0 0 0 2px rgba(186, 200, 209, 0.4);
+    border: 1px solid #bac8d1;
+    width: 24%;
+}
+.teacher-item:hover {
+    border: 2px solid #bac8d1;
+    box-shadow: 0 0 0 2px rgba(186, 200, 209, 0.4);
+}
+
+/*appvn 页面样式*/
+
+.head-bg {
+    /*width: 1200px;*/
+    width: 80%;
+    height: 95px;!important;
+    border-bottom: 1px solid rgba(186, 200, 209, .24);
+    margin: 0 auto;
+}
+.head-bg a {
+    display: inline-block;
+}
+/*.logo {
+    margin-top: 32px;
+    color: #51575b;
+}*/
+a.appvn-link , a.logo {
+    color: #51575b;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 96px;
+}
+
+
+.container {
+    /*width: 1200px;*/
+    width: 80%;
+    margin: 50px auto;
+}
+.container ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 64px;
+    padding: 0;
+    border-bottom: 1px solid rgba(186, 200, 209, 0.24);
+}
+.container ul li {
+    float: left;
+    width: 20%;
+    border: none;
+    text-align: center;
+}
+.container-1 ul li {
+    width: 16%;
+}
+.container ul li a {
+    color: #33373a;
+    font-size: 18px;
+}
+.container ul li.active-tab {
+    font-weight: 600;
+
+}
+.container ul li.active-tab a{
+    border-bottom: 2px solid #f2b54b;
+    padding-bottom: 10px;
+}
+.content {
+    /*width: 1200px;*/
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.fq h3, .windows-info h3, .android-info h3, .iphone-info h3 ,.teacher-video h3,.server-info h3,.client-info h3{
+    line-height: 55px;
+    border-bottom: 1px solid #ccc;
+    /*background: url("../images/green-line.png") no-repeat bottom left;*/
+}
+
+.fq h3 em, .windows-info h3 em, .android-info h3 em, .iphone-info h3 em ,.teacher-video h3 em ,.server-info h3 em ,.client-info h3 em  {
+    /*color: #1a7346;*/
+    display: inline-block;
+    margin-right: 5px;
+    margin-left: 5px;
+    font-style:normal;
+}
+
+.fq p, .windows-info p, .android-info p, .iphone-info p ,.teacher-video p, .server-info p,.client-info p {
+    margin-top: 20px;
+    line-height: 30px;
+    font-size: 16px;
+    color: #777;
+}
+
+.windows-info img, .android-info img, .iphone-info img ,.server-info img, .client-info img{
+    margin: 30px auto;
+    display: block;
+}
+.windows-info img, .android-info img, .iphone-info img ,.server-info img, .client-info img{
+    margin: 30px auto;
+    display: block;
+}
+/*.windows-info img, .android-info img, .iphone-info img ,.server-info img, .client-info img{
+    width: 90%;
+}*/
+
+/*手风琴效果样式*/
+.rlAccordion > h3 {
+    background-color: #f2b54b;
+    background-image: -moz-linear-gradient(center bottom, #f2b54b 0%, #f2b54b 100%);
+    background-image: -o-linear-gradient(center bottom, #f2b54b 0%, #f2b54b 100%);
+    background-image: -webkit-linear-gradient(left bottom, left top , color-stop(0, #f2b54b), color-stop(1, #f2b54b));
+    background-image: -ms-linear-gradient(top, #f2b54b 0%, #f2b54b 100%);
+    background-image: linear-gradient(top, #f2b54b 0%, #f2b54b 100%);
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1.3em;
+    font-weight: normal;
+    margin: 0 auto;
+    text-decoration: none;
+    line-height: 55px;
+}
+.rlAccordion > h3 > span {
+    float: right;
+    font-family: arial, serif, sans-serif;
+    margin-right: 20px;
+}
+.rlAccordion > h3 + div {
+    display: none;
+    padding: 2% 5%;
+}
+
+
+
+/*视频样式*/
+.teacher-video {
+    position: relative;
+    z-index: 3;
+    height: auto;
+    /*margin-top: 80px;*/
+    background-color: #eee;
+   /* padding: 30px 0;*/
+}
+.row {
+    /*width: 1200px;*/
+    width: 80%;
+    margin: 0 auto;
+}
+.row > div {
+    /*float: left;
+    width: 32%;*/
+    display: block;
+}
+.thumbnail {
+    background: none;
+    border: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+    margin-top: 30px;
+}
+.caption {
+    margin-top: 20px;
+}
+#movie {
+   /* width: 500px;*/
+    width: 90%;
+}
+
+
+
+/*cloud页面样式*/
+.cloud-container {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+.cloud-container p {
+    padding-top: 150px;
+    font-size: 36px;
+    color: #000;
+}
+
+
+/*language-ul 样式*/
+.language-ul {
+    margin-top: 30px;
+}
+.language-ul li {
+    display: inline-block;
+    font-size: 16px;
+    padding: 10px;
+}
+.language-ul li  a {
+    color: #ff9933;
+}
+.language-ul li.language-active a {
+    color: #222;
+}
+.language-ul li span {
+    color: #ff9933;
+    display: inline-block;
+    margin-left: 10px;
+
+}
+
+/*right-div*/
+.right-div .language-ul {
+    display: inline-block;
+    margin-right: 30px;
+}
+.right-div .language-ul li a {
+   font-size: 12px;
+}
+
+@media screen and (max-width: 1200px) {
+    .head {
+        width: 100%;
+        margin: 20px auto 10px;
+    }
+    .head-bg {
+        width: 90%;
+    }
+    .main-content {
+        width: 100%;
+    }
+    .container {
+        width: 90%;
+    }
+    .row {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .content {
+        width: 90%;
+    }
+  /*  .server-info img,.client-info img {
+        width: 90%;
+    }*/
+    .windows-info img, .server-info img, .client-info img {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .container {
+        width: 100%;
+    }
+    .row {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .row > div {
+        display: block;
+        width: 95%;
+    }
+    .content {
+        width: 95%;
+    }
+    .main-content {
+         width: 100%;
+     }
+    #movie {
+        width: 95%;
+    }
+    .windows-info img,.server-info img,.client-info img {
+        width: 320px;
+    }
+    .container ul li a {
+        font-size: 14px;
+    }
+    .aardp-content ul li {
+        width: auto;
+        margin-left: 7px;
+    }
+    .aardp-content ul li a {
+        font-size: 12px;
+    }
+
+
+}
+
+@media screen and (max-width: 420px) {
+    .rlAccordion > h3 {
+        font-size: 1.2em;
+    }
+    .windows-info img,.server-info img,.client-info img {
+        width: 290px;
+        height: 240px;
+    }
+    .input-line .code-img-i {
+        margin-right:30px;
+    }
+    .android-info img, .iphone-info img {
+        width: 270px;
+    }
+    .container {
+        margin: 10px auto;
+    }
+    .teacher-item {
+        display: block;
+        width: 90%;
+        margin: 30px auto;
+    }
+    .logo-a {
+      top: 50px;
+    }
+    .language-ul {
+        margin-top: 0;
+    }
+
+    .right-div .language-ul {
+        margin-right: 0;
+    }
+    .right-div .language-ul li {
+        padding: 5px;
+    }
+}
+@media screen and (max-width: 330px) {
+    .aardp-content ul li {
+        margin-left: 0;
+    }
+
+    .right-div .language-ul li {
+       padding: 0;
+    }
+
+
+}
+
+
+/*教程点赞样式*/
+.likes {
+    width: 95%;
+    margin: 10px auto;
+    height: auto;
+    /* background-color: red;*/
+}
+
+.likes-ul li {
+    display: inline-block;
+    width: 100px;
+    /* border: 1px solid #cccccc;*/
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-top: 10px;
+    position: relative;
+    padding: 5px 0;
+}
+
+.likes-ul li a {
+    display: block;
+    color: #000;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.likes-ul li a img {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    margin: 0 auto;
+    display: block;
+}
+
+.likes-ul li a span.fq-text {
+    display: block;
+    font-size: 16px;
+    font-weight: bolder;
+    color: #010202;
+    border: 1px solid #818181;
+    border-radius: 15px;
+    line-height: 30px;
+    margin-top: 20px;
+}
+
+.likes-ul li a span.big-active {
+    color: #ff6600;
+    border: 1px solid #ff6600;
+}
+
+.likes-ul .disabled {
+    pointer-events: none;
+}
+
+.likes-ul .likes-ul-active a span.fq-text {
+    color: #fff;
+    background: #ff6600;
+}
+
+.likes-ul .likes-ul-active a img {
+    animation: myfirst 0.5s;
+    -moz-animation: myfirst 0.5s; /* Firefox */
+    -webkit-animation: myfirst 0.5s; /* Safari 和 Chrome */
+    -o-animation: myfirst 0.5s; /* Opera */
+}
+
+@media screen and (max-width: 767px) {
+    .likes {
+        width: 100%;
+    }
+
+    .likes-ul li {
+        margin-left: 3px;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    .likes-ul li {
+        width: 110px;
+        margin-left: 2px;
+    }
+}
+
+
+/*点赞图标放大动画开始*/
+@keyframes myfirst {
+    0% {
+        width: 40px;
+        height: 40px;
+    }
+    50% {
+        width: 50px;
+        height: 50px;
+    }
+    100% {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@-moz-keyframes myfirst /* Firefox */
+{
+    0% {
+        width: 40px;
+        height: 40px;
+    }
+    50% {
+        width: 50px;
+        height: 50px;
+    }
+    100% {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@-webkit-keyframes myfirst /* Safari 和 Chrome */
+{
+    0% {
+        width: 40px;
+        height: 40px;
+    }
+    50% {
+        width: 50px;
+        height: 50px;
+    }
+    100% {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@-o-keyframes myfirst /* Opera */
+{
+    0% {
+        width: 40px;
+        height: 40px;
+    }
+    50% {
+        width: 50px;
+        height: 50px;
+    }
+    100% {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+/*点赞图标放大动画结束*/
+/*点赞数量加减动画开始*/
+@keyframes mypraise {
+    0% {
+        top: -15px;
+        opacity: 0;
+        filter: Alpha(opacity=0);
+        -moz-opacity: 0;
+    }
+    25% {
+        top: -20px;
+        opacity: 0.5;
+        filter: Alpha(opacity=50);
+        -moz-opacity: 0.5;
+    }
+    50% {
+        top: -25px;
+        opacity: 1;
+        filter: Alpha(opacity=100);
+        -moz-opacity: 1;
+    }
+    75% {
+        top: -30px;
+        opacity: 0.5;
+        filter: Alpha(opacity=50);
+        -moz-opacity: 0.5;
+    }
+    100% {
+        top: -35px;
+        opacity: 0;
+        filter: Alpha(opacity=0);
+        -moz-opacity: 0;
+    }
+}
+
+@-moz-keyframes mypraise /* Firefox */
+{
+    0% {
+        top: -15px;
+        opacity: 0;
+        filter: Alpha(opacity=0);
+        -moz-opacity: 0;
+    }
+    25% {
+        top: -20px;
+        opacity: 0.5;
+        filter: Alpha(opacity=50);
+        -moz-opacity: 0.5;
+    }
+    50% {
+        top: -25px;
+        opacity: 1;
+        filter: Alpha(opacity=100);
+        -moz-opacity: 1;
+    }
+    75% {
+        top: -30px;
+        opacity: 0.5;
+        filter: Alpha(opacity=50);
+        -moz-opacity: 0.5;
+    }
+    100% {
+        top: -35px;
+        opacity: 0;
+        filter: Alpha(opacity=0);
+        -moz-opacity: 0;
+    }
+}
+
+@-webkit-keyframes mypraise /* Safari 和 Chrome */
+{
+    0% {
+        top: -15px;
+        opacity: 0;
+        filter: Alpha(opacity=0);
+        -moz-opacity: 0;
+    }
+    25% {
+        top: -20px;
+        opacity: 0.5;
+        filter: Alpha(opacity=50);
+        -moz-opacity: 0.5;
+    }
+    50% {
+        top: -25px;
+        opacity: 1;
+        filter: Alpha(opacity=100);
+        -moz-opacity: 1;
+    }
+    75% {
+        top: -30px;
+        opacity: 0.5;
+        filter: Alpha(opacity=50);
+        -moz-opacity: 0.5;
+    }
+    100% {
+        top: -35px;
+        opacity: 0;
+        filter: Alpha(opacity=0);
+        -moz-opacity: 0;
+    }
+}
+
+@-o-keyframes mypraise /* Opera */
+{
+    0% {
+        top: -15px;
+        opacity: 0;
+        filter: Alpha(opacity=0);
+        -moz-opacity: 0;
+    }
+    25% {
+        top: -20px;
+        opacity: 0.5;
+        filter: Alpha(opacity=50);
+        -moz-opacity: 0.5;
+    }
+    50% {
+        top: -25px;
+        opacity: 1;
+        filter: Alpha(opacity=100);
+        -moz-opacity: 1;
+    }
+    75% {
+        top: -30px;
+        opacity: 0.5;
+        filter: Alpha(opacity=50);
+        -moz-opacity: 0.5;
+    }
+    100% {
+        top: -35px;
+        opacity: 0;
+        filter: Alpha(opacity=0);
+        -moz-opacity: 0;
+    }
+}
+
+/*点赞数量加减动画结束*/
+/*动态点赞结束*/
